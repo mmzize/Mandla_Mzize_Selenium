@@ -23,9 +23,9 @@ public class Generate_Extent_Report {
     @BeforeSuite
     public void reportSetup()
     {
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/Add_New_User_Test_Reports/AddAndVerifyUser.html");
-        htmlReporter.config().setDocumentTitle("And And Verify User Tests");
-        htmlReporter.config().setReportName("Add And Verify User");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/ILab_Career_Apply_Report/Apply_For_First_Job_Report.html");
+        htmlReporter.config().setDocumentTitle("Apply For First Job");
+        htmlReporter.config().setReportName("Apply For First Job");
         htmlReporter.config().setTheme(Theme.STANDARD);
         extent= new ExtentReports();
         extent.attachReporter(htmlReporter);

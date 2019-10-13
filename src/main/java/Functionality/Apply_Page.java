@@ -15,7 +15,7 @@ public class Apply_Page {
         this.driver=driver;
     }
 
-    @FindBy(linkText = "Apply Online")
+    @FindBy(xpath = "//a[contains(.,'Apply Online')]")
     WebElement Apply_Online_Link;
 
     @FindBy(id ="applicant_name")
