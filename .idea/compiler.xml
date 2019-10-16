@@ -9,6 +9,8 @@
         <module name="Mandla_Mzize_Selenium" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="Mandla_Mzize_Selenium" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
